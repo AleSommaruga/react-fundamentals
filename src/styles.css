@@ -25,6 +25,11 @@
 .keys #pear-input {
   background-color: #bef171;
 }
+.keys .banana-input,
+.keys [for='banana-input'],
+.keys #banana-input {
+  background-color: #f1e471;
+}
 
 .keys li {
   margin-top: 10px;
@@ -34,7 +39,8 @@
 .keys [for='apple-input'],
 .keys [for='orange-input'],
 .keys [for='grape-input'],
-.keys [for='pear-input'] {
+.keys [for='pear-input'],
+.keys [for='banana-input'] {
   display: inline-block;
   width: 100px;
   text-align: right;

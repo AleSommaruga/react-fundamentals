@@ -10,6 +10,7 @@ function FocusDemo() {
     {id: 'orange', value: '🍊 orange'},
     {id: 'grape', value: '🍇 grape'},
     {id: 'pear', value: '🍐 pear'},
+    {id: 'banana', value: '🍌 banana'}  // added by me
   ])
 
   React.useEffect(() => {
